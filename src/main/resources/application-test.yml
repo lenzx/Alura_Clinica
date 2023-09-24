@@ -1,0 +1,12 @@
+spring:
+  profile.active: test
+  datasource:
+    url: jdbc:mysql://localhost/volmed-api_test?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: Localserver123...
+
+
+
+#spring.datasource.url=jdbc:mysql://localhost/volmed-api_test?createDatabaseIfNotExist=true&serverTimezone=UTC
+#spring.datasource.username=root
+#spring.datasource.password=Localserver123...
